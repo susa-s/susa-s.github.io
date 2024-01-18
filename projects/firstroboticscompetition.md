@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/frc.jpg
 title: "Worlds Qualification for First Robotics Competition"
 date: 2019
 published: true
