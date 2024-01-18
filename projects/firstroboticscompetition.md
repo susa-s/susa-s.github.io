@@ -8,7 +8,7 @@ published: true
 labels:
   - Robotics
   - Arduino
-summary: "My High School Robotics team qualified for First Robotics Competition (FRC) worlds."
+summary: "High School Robotics and my first exposure to coding."
 ---
 
 Starting my sophmore year of High School, I joined the school's robotics team. We would do a lot of great thing for Hawaii through our community service and volunteer work, but the best part about it was obviously the robots! We competed in three different categories: VEX, FTC, and FRC. My favorite would be FRC where we would have long workshop nights from 5:00 PM to 9:00 PM every school day and just work on building a huge robot to compete in a game that gets changed every year.
