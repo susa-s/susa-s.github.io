@@ -2,15 +2,15 @@
   "basics": {
     "name": "Spencer Wells",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
+    "picture": "https://github.com/susa-s.png",
     "email": "spence2@hawaii.edu",
     "phone": "808-351-8585",
     "website": "https://susa-s.github.io",
     "summary": "I am a Computer Science and Japanese major at the University of Hawaii working part time on campus at the ITS Help Desk as a Consultant. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "susa-s, "url": "http://github.com/susa-s" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/spencer-wells-b89213260/" }
+      { "network": "github", "username": "susa-s", "url": "http://github.com/susa-s" },
+      { "network": "linkedin", "username": "spencer~wells", "url": "https://www.linkedin.com/in/spencer~wells/" }
     ]
   },
   "interests": [
