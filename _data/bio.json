@@ -10,7 +10,6 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "susa-s", "url": "http://github.com/susa-s" },
-      { "network": "email", "url": "susashins@gmail.com" }, 
       { "network": "linkedin", "username": "spencer~wells", "url": "https://www.linkedin.com/in/spencer~wells/" }
     ]
   },
