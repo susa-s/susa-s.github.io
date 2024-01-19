@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/osuProjectSS.png
+image: img/osu-project.png
 title: "OSU 2.0.. kinda?"
 date: 2020
 published: true
