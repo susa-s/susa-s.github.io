@@ -1,4 +1,3 @@
-![image](https://github.com/susa-s/susa-s.github.io/assets/156491467/5c5a92fc-0c67-413b-b95e-423f29a79f60)---
 layout: project
 type: project
 image: img/osuProjectSS.png
@@ -18,4 +17,4 @@ The final project for my ICS 111 class was to create a video game. My favorite g
 
 ## Video showcase
 
-https://youtu.be/_Ten2E-5EZ4
+[https://youtu.be/_Ten2E-5EZ4](YouTube Video)
