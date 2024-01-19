@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/osuProjectSS.png
 title: "OSU 2.0.. kinda?"
-date: 2019
+date: 2020
 published: true
 labels:
   - Video Game
@@ -18,4 +18,4 @@ The final project for my ICS 111 class was to create a video game. My favorite g
 
 ## Video showcase
 
-[https://youtu.be/_Ten2E-5EZ4](YouTube Video)
+[https://youtu.be/_Ten2E-5EZ4](Video)
