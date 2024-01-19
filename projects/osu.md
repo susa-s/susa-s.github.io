@@ -6,7 +6,7 @@ title: "OSU 2.0.. kinda?"
 date: 2019
 published: true
 labels:
-  - Robotics
+  - Video Game
 summary: "I chose to make a simple recreation of one of my favorite games for my ICS 111 final project: osu!"
 ---
 
