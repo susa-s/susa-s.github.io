@@ -18,4 +18,4 @@ The final project for my ICS 111 class was to create a video game. My favorite g
 
 ## Video showcase
 
-[https://youtu.be/_Ten2E-5EZ4](Video)
+[https://www.youtube.com/watch?v=_Ten2E-5EZ4](Video)
