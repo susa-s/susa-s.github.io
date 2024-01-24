@@ -14,7 +14,7 @@ The final project for my ICS 111 class was to create a video game. My favorite g
 
 ## Video Demo
 <div class="ratio ratio-4x3">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_Ten2E-5EZ4?si=eQytwSBbaqc7Euhj" title="osu! Recreation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_Ten2E-5EZ4?si=cGEqQ8OKS-EA0wiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
   </iframe>
 </div>
 
