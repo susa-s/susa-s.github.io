@@ -3,8 +3,8 @@ layout: essay
 type: essay
 title: "The Significance of Smart Questions"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2024-01-25
+published: True
 labels:
   - Questions
   - Answers
