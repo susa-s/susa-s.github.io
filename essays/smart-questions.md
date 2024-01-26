@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The Significance of Smart Questions: A case Study on Array Processing Efficiency"
+title: "The Significance of Smart Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: false
@@ -42,83 +42,20 @@ What is going on?
 Why is processing a sorted array faster than processing an unsorted array?
 The code is summing up some independent terms, so the order should not matter.
 ```
-For further information: [Link to stackoverflow question](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array)
 
-This selected question exhibits several characteristics of a smart question. Firstly, the problem presented is specific. People who see it will immediately understand what is the author is requesting help with. Secondly, the author demonstrates their commitment to understanding the issue. They conducted experiments on their own, making sure to include their test code alongside the execution times for both a sorted array and an unsorted array. Additionally, the author shared initial hypotheses (compiler/language anomaly + data sorting relating to the cache) and further experimentations to test those hypotheses, avoiding assumptions and ruling out potential explanations. 
-
+This selected question exhibits several characteristics of a smart question. Firstly, the problem presented is specific. People who see it will immediately understand what exactly it is the author is requesting help with. Secondly, the author demonstrates their commitment to understanding the issue. They conducted experiments on their own, making sure to include their test code alongside the execution times for both a sorted array and an unsorted array. Additionally, the author shared initial hypotheses (compiler/language anomaly + data sorting relating to the cache) and further experimentations to test those hypotheses, avoiding assumptions and ruling out potential explanations. 
 
 
-```
-Q: python date of the previous month
+## The Answer
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+All the responses I read into were of high quality and great depth, a reflection of the quality of the question. While most of the responses are a bit too lengthy to include completely in this essay, they can all be viewed on stackoverflow where the question was asked here: [Link to stackoverflow question](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array)
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+The first response starts off with the answer to the question with another question: "What is Branch Prediction?" The reason for the time discrepancy is due to branch prediction, but the responder didn't stop there. They opened up with an analogy of branch prediction being like a railroad junction and you are the operator of the junction. It is explained as: "You stop the train to ask the driver which direction they want. And then you set the switch appropriately." The problem with this is taht trains take forever to start up and slow down, similar to modern processors! What branch prediction does is that it guesses which direction the branch will go through identifying a pattern and following it. This is why a sorted array (which is much more predictable) gets processed much faster than an unsorted array (which is much less if not unpredictable) rendering branch predictors essentially useless. The response additionally includes a quick visualization of branch prediction and goes into potential fixes when the compiler isn't able to optimize branch prediction and provides the time for multiple different scenarios.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+An additional response to this question mentions how this first response was 'explained beautifully'.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+I feel that the willingness to go to such lengths to not only answer the question, but also to provide additional explanations and information for the author's understanding and alternative solution use were done so out of respect and acknowledgement of the author's commitment to understanding/figuring out the question. The lengths one would go to in order to answer a question would be drastically lower should the question have been asked poorly, or the author did not demonstrate a willingness to learn. Their genuine curiosity and known efforts at trying to figuring this question out has had an impact on the quality of the responses they received. 
+
+Asking quality, smart questions results in qualtiy smart answers.
