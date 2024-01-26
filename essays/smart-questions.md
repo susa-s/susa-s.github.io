@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "The Significance of Smart Questions: A case Study on Array Processing Efficiency"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: false
@@ -13,15 +13,40 @@ labels:
 
 <img width="433px" class="rounded float-start pe-4" src="../img/smartQuestions.png">
 
-## Is there such thing as a stupid question?
+## What's the Big Deal?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Smart questions play such an important role for software engineers, guiding us towards innovative solutions alongside a deeper understanding of complex problems. People are more willing to help others with questions who demonstrate the willingness to learn and the willingness to put in the effort. The people answering our questions are mostly volunteers who take the time out of their lives to provide us with answers to our questions for free. With so many questions out there, it's important to make sure that your question is worth answering. How a question is asked is often more important than how hard or difficult it is to answer a question!
 
-## What’s a smart question?
+## The Question:
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+```
+Q: Why is processing a sorted array faster than processing an unsorted array?
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster:
+
+(Sorce Code)
+
+Without std::sort(data, data + arraySize);, the code runs in 11.54 seconds.
+With the sorted data, the code runs in 1.93 seconds.
+(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
+
+Initially, I thought this might be just a language or compiler anomaly, so I tried Java:
+
+(Additional Sorce Code)
+
+With a similar but less extreme result.
+
+My first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.
+
+What is going on?
+Why is processing a sorted array faster than processing an unsorted array?
+The code is summing up some independent terms, so the order should not matter.
+```
+For further information: [Link to stackoverflow question](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array)
+
+This selected question exhibits several characteristics of a smart question. Firstly, the problem presented is specific. People who see it will immediately understand what is the author is requesting help with. Secondly, the author demonstrates their commitment to understanding the issue. They conducted experiments on their own, making sure to include their test code alongside the execution times for both a sorted array and an unsorted array. Additionally, the author shared initial hypotheses (compiler/language anomaly + data sorting relating to the cache) and further experimentations to test those hypotheses, avoiding assumptions and ruling out potential explanations. 
+
+
 
 ```
 Q: python date of the previous month
