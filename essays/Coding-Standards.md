@@ -11,7 +11,7 @@ labels:
   - JavaScript
 ---
 
-<img width="768px" class="rounded float-start pe-4" src="../img/coding-standards.png">
+<img width="768px" class="rounded float-start pe-4" src="../img/coding-standards.jpg">
 
 ## I love coding standards
 The significance of coding standards cannot be overstated. It serves as the guiding principles for writing, organizing, and maintaining code. It enhances collaboration, efficiency, and overall code quality.
