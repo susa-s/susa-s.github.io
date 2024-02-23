@@ -10,7 +10,7 @@ labels:
   - Bootstrap 5
 ---
 
-<img width="768px" class="rounded float-start pe-4" src="../img/hmm.jpeg">
+<img width="300px" class="rounded float-start pe-4" src="../img/hmm.jpeg">
 
 ## Introduction
 I believe it is important to preface this essay with the fact that I am a complete beginner with UI Frameworks and Bootstrap 5 and had no prior knowledge of anything HTML/CSS. The short story even shorter is that my feelings towards UI Frameworks is overwelmingly negative. But just as a brief explanation on why I believe I feel that way is due to the fact that I have no idea what I am doing and how things are not intuitive and frustrating.
