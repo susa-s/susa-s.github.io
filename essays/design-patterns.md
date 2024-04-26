@@ -23,7 +23,7 @@ YES! I'm using them right now!
 
 Currently, I'm working with a team to develop an application displaying food vendors on the UH Manoa campus. We are using a MongoDB collection to store all our vendors and their information.
 
-Example:
+Vendor Collection:
 ```
 class VendorsCollection {
   constructor() {
@@ -49,4 +49,9 @@ class VendorsCollection {
     this.adminPublicationName = `${this.name}.publication.admin`;
   }
 }
+
+export const Vendors = new VendorsCollection();
 ```
+This 'VendorsCollection' class is designed to be a singleton instance, ensuring that only one instance of the 'VendorsCollection' is created and used throughout the application. The variable 'Vendors' is the singleton instance that we export and use when we want to manipulate the collection. 
+
+Whenever we want to display information from the Vendors collection, whenever we want to add, edit, or remove stuff in the collection, we use that 'Vendors' variable which is used all throughout our application.
