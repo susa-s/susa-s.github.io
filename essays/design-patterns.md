@@ -21,10 +21,11 @@ Design patterns provide a structured approach to solving specific design challen
 ## Have I used Design Patterns?
 YES! I'm using them right now! 
 
-Currently, I'm working with a team to develop an application displaying food vendors on the UH Manoa campus.
+Currently, I'm working with a team to develop an application displaying food vendors on the UH Manoa campus. We are using a MongoDB collection to store all our vendors and their information.
 
-Snippet:
-```class VendorsCollection {
+Example:
+```
+class VendorsCollection {
   constructor() {
     this.name = 'VendorsCollection';
 
@@ -48,3 +49,4 @@ Snippet:
     this.adminPublicationName = `${this.name}.publication.admin`;
   }
 }
+```
