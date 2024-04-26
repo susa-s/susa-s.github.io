@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/design-patterns.jpeg">
+<img width="300px" class="rounded float-start pe-4" src="../img/design-patterns.jpg">
 
 ## What are Design Patterns?
 Design patterns refer to reusable solutions to common problems that occur during the design and development of software systems. These patterns include best practices, proven strategies, and general guidelines for designing flexible, scalable, and maintainable code. 
