@@ -8,6 +8,7 @@ published: True
 labels:
   - Design Patterns
   - Software Engineering
+  - React
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/design-patterns.jpg">
@@ -17,4 +18,4 @@ Design patterns refer to reusable solutions to common problems that occur during
 
 Design patterns provide a structured approach to solving specific design challenges, offering developers well-defined templates/blueprints to follow. They promote code reusability, modularization, and abstraction, leading to better software design in general.
 
-
+## Have I used Design Patterns?
