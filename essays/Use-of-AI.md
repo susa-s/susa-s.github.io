@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/design-patterns.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/ai.jpg">
 
 ### I. Introduction
 I personally do use AI in my day to day life. I often use it for educational purposes as well. That being said, I don't rely on it for answers or understanding. Rather I use it as a tool to assist with my learning and understanding of specific problems or concepts. AI right now isn't always going to give you the right or correct answer to all your questions, and it's important to keep that in mind and critically analyze what AI is providing you. 
