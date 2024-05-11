@@ -14,7 +14,7 @@ summary: "Ever wondered to yourself, 'Uhm... what should I eat?' while on the UH
 UHM... What To Eat is a web application project that I worked on with fellow software engineer students. It serves to answer the age old question, 'uhm.. what to eat?'.
 
 The application has a lot to offer for users. When users want to find a place/places to eat there's a few places they can start. As soon as users sign in, they're greeted with a few potential places to eatThe 'Places To Eat' page offers a list of locations on the UH Manoa campus that then displays each food vendor for that given location when selected. Users can also use the 'Search' page to search for vendors that match certain categories such as Asian food or drinks, or breakfast food.
-<img src="../img/placestoeat.png">
+<img width="300px" src="../img/placestoeat.png">
 
 Users are also able to favorite certain vendors that they like and view them on a seperate 'Favorites' page for added customizability. 
 
