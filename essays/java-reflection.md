@@ -4,7 +4,7 @@ type: essay
 title: "One of the Programming Languages of All Time: Javascript"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-17
-published: True
+published: False
 labels:
   - JavaScript
 ---
