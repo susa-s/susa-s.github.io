@@ -4,7 +4,7 @@ type: essay
 title: "Hello Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-18
-published: True
+published: False
 labels:
   - JavaScript
   - Software Engineering
