@@ -10,11 +10,10 @@ labels:
 summary: "Ever wondered to yourself, 'Uhm... what should I eat?' while on the UH Manoa Campus? Well I've got the solution for you.."
 ---
 
-The final project for my ICS 111 class was to create a video game! At the time, my favorite game was 'osu!', so I figured, why not try to recreate it? The game is simple enough, simply click the circles to the rhythm. Without a doubt, this was the most fun I've had with programming, ever. I'd spend hours a day messing around with the code, seeing what changes would happen and trying to get things to work.
+## INTRODUCING: UHM... What To Eat?
+UHM... What To Eat is a web application project that I worked on with fellow software engineer students. It serves to answer the age old question, 'uhm.. what to eat?'.
 
-This was entirely a solo project and all the coding was done myself. We had two weeks to finish the assignment but with how excited and motivated I was to make this game, I had a submittable version finished within the first week. I spent the remainder of my time adding in extra songs and generating circles to the rhythm.
-
-What I learned from this project is that the amount of work and level of quality that you can produce when you're motivated and passionate about something is exponentially larger than the amount you would produce if you weren't motivated or passionate. I've found that I really enjoyed the process of creating this game and watching it come to life. osu! is something that I have always been passionate about, so it was super motivating and fun having that passion carry over into this project of recreating it.
+The application has a lot to offer for users. When users want to find a place/places to eat there's a few places they can start. The 'Places To Eat' page offers a list of locations on the UH Manoa campus that then displays each food vendor for that given location when selected. Users can also use the 'Search' page to search for vendors that match certain categories such as Asian food or drinks, or breakfast food.
 
 
 ## Video Demo
