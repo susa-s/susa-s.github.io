@@ -7,7 +7,7 @@ date: 2024
 published: true
 labels:
   - Web Application
-summary: "Ever wondered to yourself, "Uhm... what should I eat?" while on the UH Manoa Campus? Well I've got the solution for you.."
+summary: "Ever wondered to yourself, 'Uhm... what should I eat?' while on the UH Manoa Campus? Well I've got the solution for you.."
 ---
 
 The final project for my ICS 111 class was to create a video game! At the time, my favorite game was 'osu!', so I figured, why not try to recreate it? The game is simple enough, simply click the circles to the rhythm. Without a doubt, this was the most fun I've had with programming, ever. I'd spend hours a day messing around with the code, seeing what changes would happen and trying to get things to work.
