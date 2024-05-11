@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/osu-project.png
+image: img/uhm.png
 title: "UHM... What To Eat?"
 date: 2024
 published: true
