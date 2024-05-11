@@ -35,4 +35,5 @@ Working on a web application in a group was such a wonderful experience. This wa
 
 ## GitHub Page
 For those who want to see the source code and learn more about our project:
+
 [Link to Repository](https://github.com/uhm-what-to-eat/source-code).
