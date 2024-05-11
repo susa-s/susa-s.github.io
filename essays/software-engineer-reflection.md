@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Am I a Software Engineer?"
 # All dates must be YYYY-MM-DD format!
-date: 2024-02-08
+date: 2024-05-09
 published: True
 labels:
   - Software Engineering
