@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Essay Title Temp"
+title: "Experiences Through Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-20
 published: True
@@ -11,7 +11,7 @@ labels:
   - Coding Standards
 ---
 
-<img width="768px" class="rounded float-start pe-4" src="../img/software-engineer.jpg">
+<img width="768px" class="rounded float-start pe-4" src="../img/vyf.png">
 
 ## Intro
 Reflecting on my experience in my software engineering class, I can confidently say that this project was one of the most challenging yet rewarding experience I have ever undertaken. We were tasked with transforming complex accounting spreadsheets into a functional web application which required not only technical skills but also a deep understanding of teamwork and problem-solving.
